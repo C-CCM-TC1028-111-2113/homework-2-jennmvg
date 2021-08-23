@@ -1,7 +1,7 @@
 import math
 def main():
     #escribe tu código abajo de esta línea
-    print (´Dame un número:´)
+    print (´Dame un numero:´)
     number= int (input())
     
     if (number==0):
