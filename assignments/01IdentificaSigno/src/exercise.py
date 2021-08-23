@@ -2,7 +2,7 @@ import math
 def main():
     #escribe tu código abajo de esta línea
     import math
-    number= int(input(`Dame un número:´)
+    number= input(`Dame un número:´)
     
     if (number==0):
         print (`es cero´)
