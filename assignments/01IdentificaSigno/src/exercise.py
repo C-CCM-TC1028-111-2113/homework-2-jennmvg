@@ -2,7 +2,8 @@ import math
 def main():
     #escribe tu código abajo de esta línea
     import math
-    number= input(`Dame un número:´)
+    print (´Dame un número:´)
+    number= int (input())
     
     if (number==0):
         print (`es cero´)
