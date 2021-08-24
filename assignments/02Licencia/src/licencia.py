@@ -1,7 +1,4 @@
-
-def main():
-    #Escribe tu código debajo de esta línea
-    import math
+import math
 print ("Ingresa tu edad")
 edad= int(input())
 
@@ -17,8 +14,3 @@ elif (edad<18):
     print ("No cumples con los requisitos")
 else
     print ("Respuesta incorrecta")
-    pass
-
-
-if __name__ == '__main__':
-    main()

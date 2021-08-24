@@ -1,6 +1,4 @@
-def main():
-    #escribe tu código abajo de esta línea
-    import math
+import math
 peso = float(input("Peso en kg: "))
 altura = float(input("Altura en m: "))
 
@@ -17,6 +15,3 @@ elif (30<=IMC<40):
 elif (IMC>=40):
     print ("OBESIDAD MORBIDA")
     
-    pass
-if __name__=='__main__':
-    main()

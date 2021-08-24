@@ -4,10 +4,10 @@ def main():
     print ("Dame un número:")
     number= int (input())
     
-    if (number>0):
+    if (number==0):
+        print ("es cero")
+    elif (number<0):
         print ("es negativo")
-    elif (number==0):
-        print ("Es cero")
     else:
         print ("es positivo")
     pass

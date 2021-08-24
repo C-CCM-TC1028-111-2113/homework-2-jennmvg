@@ -1,5 +1,3 @@
-def main():
-    #escribe tu código abajo de esta línea
 import math 
 
 num1 = int(input("Ingresa el primer número: "))
@@ -14,9 +12,3 @@ elif num3>num1 and num3>num2:
     print ("El número mayor es:", num2)
 else: 
     print ("No se pudo establecer el mayor")
-
-    pass
-
-
-if __name__=='__main__':
-    main()

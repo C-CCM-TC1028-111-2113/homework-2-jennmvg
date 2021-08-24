@@ -1,6 +1,4 @@
-def main():
-    # Escribe el código adecuado para completar el programa
-    import math
+import math
 x = int(input("Ingresa el primer número: "))
 y = int(input("Ingresa el segundo número: "))
 z = int(input("Ingresa el tercer número: "))
@@ -20,8 +18,3 @@ elif (y>z and z>x):
     print ("", y,"-", z, "-", x)
 else:
     print("Se ingresaron números iguales")
-    pass
-
-
-if __name__=='__main__':
-    main()
